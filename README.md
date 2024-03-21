@@ -1,2 +1,3 @@
-# Push-Fibonacci-numbers-in-Array
-Code for creating a array of Fibonacci numbers till n.
+Fibonacci Number Checker
+
+A JavaScript function to determine whether numbers in an array belong to the Fibonacci sequence.
