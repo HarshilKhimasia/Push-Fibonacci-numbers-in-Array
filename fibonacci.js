@@ -23,8 +23,9 @@ const examFun = (arrOFNums) => {
   }
 
   const fibonacciArr = createFibonacciArr(largeNum); // Largest Number from the array is passes as argument which will create a Fibonacci Series till that Number
-  let statusNum = false;
+ 
   for (let i = 0; i < arrOFNums.length; i++) {
+     let statusNum = false;
     for (let x = 0; x < fibonacciArr.length; x++) {
       if (arrOFNums[i] == fibonacciArr[x]) {                                 // Checks wheter a number belongs to the Series in Fibonacci Series
         statusNum = !statusNum;
